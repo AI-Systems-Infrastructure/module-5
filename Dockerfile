@@ -17,7 +17,7 @@ COPY server.py .
 RUN mkdir -p ./data
 
 # Expose port 8000 for the API
-EXPOSE 8005
+EXPOSE 8000
 
 # Command to run when container starts
 CMD ["python", "server.py"]
