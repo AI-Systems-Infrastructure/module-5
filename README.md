@@ -28,7 +28,7 @@ docker run -d -p 8000:8000 \
   yanlincs/image-classify-api:v1.0
 ```
 
-Note that this image only supports `linux/amd64` architecture, which might be not compatible with the computer you have. In that case, you will have to build the container yourself.
+Note that this image only supports `linux/amd64` architecture, which might not be compatible with the computer you have. In that case, you will have to build the container yourself.
 
 ### Option 2: Build Locally
 
