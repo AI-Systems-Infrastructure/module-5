@@ -16,7 +16,7 @@ The container exposes port 8000 and uses a mounted volume for database persisten
 
 ### Option 1: Pull from Docker Hub
 
-I pushed a pre-built container onto Docker Hub, so you can simply pull it:
+I pushed [a pre-built image](https://hub.docker.com/r/yanlincs/image-classify-api) onto Docker Hub, so you can simply pull it:
 
 ```bash
 docker pull yanlincs/image-classify-api:v1.0
